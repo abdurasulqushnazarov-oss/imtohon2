@@ -163,7 +163,7 @@ button {
 
 .container {
   width: 100%;
-  max-width: 1110px;
+  max-width: 1150px;
   margin: 0 auto;
   padding: 89px 20px 55px 20px;
 }
@@ -192,6 +192,26 @@ button {
 
 .navbar a:hover {
   color: #f15d51;
+}
+
+main {
+  height: 90vh;
+}
+
+.hero-container {
+  height: 100%;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: repeat(3, 1fr);
+  border: 2px solid red;
+}
+
+.main-img {
+  background-image: url("./imgs/main-img.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  width: 730px;
 }
 
 @media (max-width: 650px) {
