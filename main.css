@@ -157,6 +157,10 @@ a {
   text-decoration: none;
 }
 
+button {
+  cursor: pointer;
+}
+
 .container {
   width: 100%;
   max-width: 1110px;
@@ -168,6 +172,12 @@ a {
   display: flex;
   align-items: center;
   justify-content: space-between;
+}
+
+.menu-bar {
+  display: none;
+  background-color: transparent;
+  border: none;
 }
 
 .navbar {
@@ -182,4 +192,13 @@ a {
 
 .navbar a:hover {
   color: #f15d51;
+}
+
+@media (max-width: 650px) {
+  .navbar {
+    display: none;
+  }
+  .menu-bar {
+    display: block;
+  }
 }
