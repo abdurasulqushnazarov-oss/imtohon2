@@ -236,6 +236,10 @@ button {
   cursor: pointer;
 }
 
+.hero-text button:hover {
+  background-color: #00001a;
+}
+
 /* RIGHT */
 
 .hero-right {
