@@ -282,6 +282,13 @@ button {
 .card {
   display: flex;
   gap: 15px;
+  h4 {
+    font-size: 18px;
+  }
+}
+
+.card h4:hover {
+  color: #f15d51;
 }
 
 .card img {
